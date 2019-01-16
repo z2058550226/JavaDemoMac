@@ -1,4 +1,4 @@
-package com.suikajy.toolpro;
+package com.suikajy.toolpro.tool;
 
 import java.util.Scanner;
 

@@ -1,6 +1,6 @@
-package com.suikajy.toolpro;
+package com.suikajy.toolpro.tool;
 
-import java.io.File;
+import com.suikajy.toolpro.tool.String2ByteArray;
 
 public class ByteArray2String {
 
