@@ -4,15 +4,15 @@ import java.util.Scanner;
 
 public class String2ByteArray {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("input the string to convert");
         String inString = input.nextLine();
         byte[] bytes = inString.getBytes();
 
-        if (bytes.length==0){
+        if (bytes.length == 0) {
             System.out.println("no input");
-        }else {
+        } else {
             StringBuilder sb = new StringBuilder();
             sb.append("{");
             sb.append(bytes[0]);

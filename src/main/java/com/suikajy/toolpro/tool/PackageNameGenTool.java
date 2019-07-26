@@ -23,6 +23,7 @@ public class PackageNameGenTool {
         System.out.println(result);
         setClipboardContents(result);
         System.out.println("已复制到剪切板");
+        System.exit(0);
     }
 
     private static void setClipboardContents(String contents) {
